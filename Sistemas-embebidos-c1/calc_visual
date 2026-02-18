@@ -1,0 +1,3 @@
+#!/bin/sh
+dir="`dirname \"$0\"`"
+exec "$dir/calc_visual.app/Contents/MacOS/calc_visual" "$@"
